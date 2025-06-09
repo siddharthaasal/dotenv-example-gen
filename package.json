@@ -1,0 +1,34 @@
+{
+  "name": "dotenv-example-gen",
+  "version": "1.0.0",
+  "description": "Generate .env.example files from your .env and other environment files by extracting keys with optional values and comments. A simple CLI tool to keep your environment variable templates up-to-date and clean.",
+  "main": "src/index.ts",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthaasal/dotenv-example-gen.git"
+  },
+  "keywords": [
+    "dotenv"
+  ],
+  "author": "Siddharth Aasal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddharthaasal/dotenv-example-gen/issues"
+  },
+  "homepage": "https://github.com/siddharthaasal/dotenv-example-gen#readme",
+  "devDependencies": {
+    "@types/commander": "^2.12.0",
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}
